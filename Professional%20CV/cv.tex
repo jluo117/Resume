@@ -2,14 +2,14 @@
 
 %A Few Useful Packages
 \usepackage{marvosym}
-\usepackage{fontspec} 					%for loading fonts
-\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage{fontspec}           %for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip}   %other packages for formatting
 \RequirePackage{color,graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[big]{layaureo} 				%better formatting of the A4 page
+\usepackage[big]{layaureo}        %better formatting of the A4 page
 % an alternative to Layaureo can be ** \usepackage{fullpage} **
-\usepackage{supertabular} 				%for Grades
-\usepackage{titlesec}					%custom \section
+\usepackage{supertabular}         %for Grades
+\usepackage{titlesec}         %custom \section
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -28,7 +28,7 @@ ItalicFont = Fontin-Italic.otf
 {Fontin.otf}
 %%%
 
-%CV Sections inspired by:
+%CV Sections inspired by: 
 %http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{0pt}{0pt}
@@ -52,14 +52,14 @@ ItalicFont = Fontin-Italic.otf
 %WATERMARK TEST [**not part of a CV**]---------------
 %\font\wm=''Baskerville:color=787878'' at 8pt
 %\font\wmweb=''Baskerville:color=FF1493'' at 8pt
-%{\wm
-%	\begin{textblock}{1}(0,0)
-%		\rotatebox{-90}{\parbox{500mm}{
-%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for
-%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
-%		}
-%	}
-%	\end{textblock}
+%{\wm 
+% \begin{textblock}{1}(0,0)
+%   \rotatebox{-90}{\parbox{500mm}{
+%     Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%     {\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%   }
+% }
+% \end{textblock}
 %}
 
 \pagestyle{empty} % non-numbered pages
@@ -68,8 +68,8 @@ ItalicFont = Fontin-Italic.otf
 
 %--------------------TITLE-------------
 \par{\centering
-		{\Huge James \textsc{Luo}
-	}\bigskip\par}
+    {\Huge James \textsc{Luo}
+  }\bigskip\par}
 
 %--------------------SECTIONS-----------------------------------
 %Section: Personal Data
@@ -79,6 +79,8 @@ ItalicFont = Fontin-Italic.otf
         \textsc{Phone:}     & 415 810 9857\\
         \textsc{Address} & 212 Rio Verde St Daly City, California 94014\\
     \textsc{email:}     & \href{mailto:luojames52@gmail.com}{luojames52@gmail.com}\\
+    \textsc{website:} &
+    \href{https://jluo117.github.io}{jluo117.github.io}\\
     \textsc{Github:} &
     \href{https://github.com/jluo117}{github.com/jluo117}
 \end{tabular}
@@ -86,13 +88,13 @@ ItalicFont = Fontin-Italic.otf
 %Section: Languages
 \section{Languages}
 \begin{tabular}{rl}
-
-\textsc{C++(perfer language)} ,{Ruby(beginner)}, {Python (beginner)} \\
+ 
+\textsc{C++},{Python} \\
 \end{tabular}
 
 %Section: Education
 \section{Education}
-\begin{tabular}{rl}
+\begin{tabular}{rl} 
 \textsc{Fall 2016 - Spring 2020} & Bachelor of Science in Computer Science\\
 \textsc{GPA 3.4}
 & University of California, Riverside \\
@@ -105,12 +107,11 @@ ItalicFont = Fontin-Italic.otf
 \section{Projects}
 
 \begin{tabular}{r|p{11cm}}
- \emph{Senior Ex} & \textsc{Benifits and Risks of Cloud Computing} \\\emph{Fall 2015-Spring 2016}&\footnotesize\begin{itemize}
-  \item Year long research project on a topic of choice
-  \item 15 page paper exploring the background of cloud computing, the benifits, and risks
-  \item Interview two experts (Software Engineer at Google and Innovation law lawyer at UC Hastings)
-  \item 20 minute presentation to my peers and community members about my final view on this topic
-\end{itemize}\\
+ \emph{Chemical simulator} & \textsc{Undergrad research} \\\emph{Summer 2017}&\footnotesize\begin{itemize}
+  \item Create a simulator to predict the result of a specific chemical reaction  
+  \item create a file converting program to generate graphs using various Python libraries
+  
+\end{itemize}
 
 
 \end{tabular}
@@ -141,4 +142,3 @@ ItalicFont = Fontin-Italic.otf
 
 \end{tabular}
 \end{document}
-
